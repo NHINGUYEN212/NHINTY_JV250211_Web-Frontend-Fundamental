@@ -1,0 +1,32 @@
+aside {
+    float: left; 
+ }
+.sidebar-list {
+    display: inline-block;
+    list-style: none;
+    background-color: rgb(216, 213, 213);
+    padding-left: 0;
+    width: 150px;
+    height: 300px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 140px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sidebar-home {
+    margin-top: 10px;
+}
+a:hover {
+    background-color: rgb(35, 205, 77);
+    color: white;
+}
+main {
+    display: inline-block;
+    margin: 20px;
+}

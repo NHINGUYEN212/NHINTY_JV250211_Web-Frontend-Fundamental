@@ -1,0 +1,12 @@
+div {
+    margin-left: 15px;
+}
+.paragraph-2 {
+    border-left: 3px solid orange;
+    background-color: rgb(247, 247, 187);
+    padding: 10px;
+    width: 700px;
+}
+span {
+    color: orange;
+}

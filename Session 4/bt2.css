@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+}
+.navbar-list {
+    text-align: center;
+    height: 30px;
+    background-color: #dddddd;
+    margin-top: 0px;
+}
+.navbar-item {
+    list-style: none;
+    display: inline-block;
+}
+a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 7px 30px;
+}
