@@ -1,0 +1,15 @@
+.list {
+    list-style: none;
+}
+.list-item {
+    color: white;
+    background-color: #c1c1c1;
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+}
+.list-item:hover {
+    background-color: #666666;
+}

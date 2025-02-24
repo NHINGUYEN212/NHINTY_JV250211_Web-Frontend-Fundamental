@@ -1,0 +1,10 @@
+p {
+    text-align: center;
+    width: fit-content;
+    height: 20px;
+    border-top: 3px solid red;
+    border-right: 6px dotted rgb(165, 49, 161);
+    border-bottom: 6px double green;
+    border-left: 10px groove rgb(86, 27, 80);
+    padding: 3px 5px;
+}
