@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container {
+    margin: 50px auto;
+    width: 920px;
+    height: 660px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 1fr 1fr;
+    gap: 10px;
+}
+h2 {
+    
+    font-size: 20px;
+}
+p {
+    
+    font-size: 14px;
+}
+.box-1 {
+    height: 300px;
+    grid-column: 1 / 4;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661475916373-5aaaeb4a5393?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    h1 {margin-left: 20px;
+        margin-right: 10px;
+    }
+    p {margin: 40px 20px 30px;
+
+    }
+    
+}
+.box-2{
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSGsaTVtd-gzWU8ViT34h09LASyzuwrwfkSD7lfBzaTVkdOJiPV);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    h2 {margin-left: 20px;
+        margin-right: 10px;
+    }
+    p {margin: 40px 20px 30px;
+
+    }
+  
+}
+.box-3 {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20221020/pngtree-water-coursecollados-del-asoncantabriaspain-water-course-cantabria-photo-image_7164580.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    h2 {margin-left: 20px;
+        margin-right: 10px;
+    }
+    p {margin: 40px 20px 30px;
+
+    }
+   
+}
+.box-4 {
+    background-image: url(https://media.istockphoto.com/id/1383023133/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E5%B7%BB%E3%81%8D%E6%AF%9B%E9%AB%AA%E3%81%AE%E7%BE%8E%E3%81%97%E3%81%84%E5%A5%B3%E3%81%AE%E5%AD%90.webp?a=1&b=1&s=612x612&w=0&k=20&c=yovk6g11W1rLhKlY5drE7qsgokF9i4aYvpqbNYkpvZo=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    h2 {margin-left: 20px;
+        margin-right: 10px;
+    }
+    p {margin: 40px 20px 30px;
+
+    }
+  
+}
+.box-5 {
+    background-image: url(https://plus.unsplash.com/premium_photo-1670282393309-70fd7f8eb1ef?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    h2 {margin-left: 20px;
+        margin-right: 10px;
+    }
+    p {margin: 40px 20px 30px;
+
+    }
+  
+}
+.box-6 {
+    background-color: #800000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+        margin-bottom: 10px;
+    }
+    
+}
+.box-7 {
+    background-image: url(https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    h2 {margin-left: 20px;
+        margin-right: 10px;
+    }
+    p {margin: 40px 20px 30px;
+
+    }
+ 
+}
