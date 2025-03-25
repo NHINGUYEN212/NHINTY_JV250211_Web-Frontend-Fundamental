@@ -1,0 +1,22 @@
+#container {
+    background-color: green;
+    padding: 20px;
+    width: 35%;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    
+}
+
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+.gray { background-color: gray; }
