@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #e6e4e4;
+  font-size: 18px;
+  transition: 0.2s;
+  list-style: none;
+  cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* ul li:hover {
+  background: #ddd;
+} */
+
+ul li.checked {
+  background: #444;
+  color: #fff;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+ul li.checked::before {
+  content: "✔";
+  position: absolute;
+  border-color: #fff;
+  left: 16px;
+  font-size: 18px;
+}
+
+.header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  gap: 0;
+}
+
+input {
+  width: 500px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.add-btn {
+  border: none;
+  padding: 10px;
+  width: 120px;
+  background: #d9d9d9;
+  color: #555;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.update-btn, .delete-btn, .completed-btn {
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 5px 10px;
+  position: absolute;
+  border: none;
+  color: white;
+}
+
+.update-btn {
+  background-color: orange;
+  right: 75px;
+  bottom: 8px;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  right: 18px;
+  bottom: 8px;
+}
+
+.completed-btn {
+  background-color: #62a938;
+  right: 135px;
+  bottom: 8px;
+}
