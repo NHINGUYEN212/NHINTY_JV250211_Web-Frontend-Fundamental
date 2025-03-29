@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #412273;
+    color: white;
+}
+.add-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 20px 40px;
+    font-size: 36px;
+    background: #2e1a47;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    background: #f2f2f2;
+    width: 650px;
+    overflow: hidden;
+    position: relative;
+    color: black;
+}
+.modal-header {
+    background: #a380dc;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.modal-body {
+    margin: 15px;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #a380dc;
+    font-weight: 600;
+}
+input {
+    width: 97%;
+    padding: 8px;
+    border: 2px solid #a380dc;
+    border-radius: 3px;
+}
+.save-btn {
+    width: 100px;
+    background: #a380dc;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+}
+.save-btn:hover {
+    background: #6b42b0;
+}
+.bookmark-container {
+    margin: 0 40px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.bookmark-item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    position: relative;
+}
+.bookmark-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.bookmark-item a {
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.bookmark-item button {
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

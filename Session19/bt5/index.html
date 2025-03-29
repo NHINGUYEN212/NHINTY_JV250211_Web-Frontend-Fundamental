@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo một ứng dụng bookmark trang web</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <button class="add-btn" onclick="toggleModal()">ADD BOOKMARK</button>
+
+    <div class="bookmark-container" id="bookmarkList"></div>
+
+    <div class="modal" id="bookmarkModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Add Bookmark</h2>
+          <span class="close-btn" onclick="closeModal()">&times;</span>
+        </div>
+        <div class="modal-body">
+          <label for="name">Website Name</label>
+          <input type="text" id="name" placeholder="Enter website name" />
+          <label for="url">Website URL</label>
+          <input type="url" id="url" placeholder="Enter website URL" />
+          <button class="save-btn" onclick="addBookmark()">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
